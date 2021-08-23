@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #7ec8e6,#1d40d8);
+    padding :0 !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+} 
+.navbar-nav li a{
+    color: #fff !important;
+    font: 600;
+    float: right;
+    text-align: right;
+}
+.fa-bars{
+    color:#fff;
+    font-size: 30px;
+    
+
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+   
+}
+
+/* ----------Banner Section--------------------------*/
+
+#banner{
+    background-image: linear-gradient(to right, #7ec8e6,#1d40d8);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.banner-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.btn-play{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+
+}
+/* .wavee{
+    background-image: linear-gradient(to right, #5de6f0,#0775db);
+} */
+
+/* -------------------Services Section------------------------- */
+#services{
+    padding: 80px 0;
+}
+.img-services{
+    width: 100px;
+    margin-top: 20px;
+}
+.services{
+    padding: 20px;
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before{
+    content: '';
+    background-color: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+
+}
+
+#services .btn-primary{
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(145, 22, 114),#5f1782);
+    border : none;
+    padding: 8px 25px;
+}
+
+/* -------------------Contact Section------------------------- */
+
+#price{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+}
+.about-tittle{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 5%;
+    
+}
+#price .card-header{
+    background-image: linear-gradient(to left, #7ec8e6,#1d40d8);
+    
+    
+}
+#price ul li{
+ margin-left: 20px;
+}
+
+
+/* -------------------Testimonial Section------------------------- */
+#testimonial{
+    margin: 100px 0;
+}
+
+.testimonial{
+    border-left: 4px #911672 solid;
+    padding-left: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonial img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
+
+.details-user{
+    display: inline-block;  
+    font-size: 12px; 
+}
+
+/* -----------Social media section------------------- */
+#media-social{
+    background: #f8f9fa;
+    padding: 100px 0 ;
+}
+
+#media-social p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.social-media-img img{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-media-img img:hover{
+    transform:  scale(1.5,1.5);
+}
+
+/* --------Section Footer------------- */
+#footer{
+    background-image: linear-gradient(to right, #7ec8e6,#1d40d8);
+    color: #fff;
+}
+
+#footer img{
+    width: 100%;
+}
+
+.box-footer{
+    padding: 20px;
+}
+
+#footer .box-footer img{
+    width: 200px;
+    margin-bottom: 5px;
+    
+}
+#footer hr{
+    color: #fff;
+    height: 1.5px;
+}
+
+#footer .copyright{
+   margin:0;
+   padding-bottom: 20px;
+   text-align: center;
+
+}
